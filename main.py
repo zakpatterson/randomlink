@@ -12,4 +12,4 @@ links = [
 
 @app.route('/')
 def random_link():
-    redirect(random.choice(links))
+    return redirect(random.choice(links))
